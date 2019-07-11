@@ -16,6 +16,8 @@
 
 LOCAL_PATH := device/samsung/i9300
 
+PRODUCT_CHARACTERISTICS := tv
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
